@@ -1,4 +1,4 @@
-from tasks.project.track.track import Item
+from tasks.project.item import Item
 
 
 class Book(Item):

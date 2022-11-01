@@ -1,7 +1,5 @@
-class Item:
-    def __init__(self, title, isbn, is_downloadable):
+class Track:
+    def __init__(self, title, artist, duration):
         self.title = title,
-        self.isbn = isbn,
-        self.is_downloadable = is_downloadable
-
-
+        self.artist = artist,
+        self.duration = duration

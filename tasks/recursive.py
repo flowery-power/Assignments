@@ -20,7 +20,7 @@ def recursive(x):
 
     else:
         print(dict[num_list[0]], end=", ")
-        num = ''.join([str(i) for i in num_list[1:]])
+        num = ''.join([i for i in num_list[1:]])
         return recursive(num)
 
 
